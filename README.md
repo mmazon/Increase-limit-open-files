@@ -9,10 +9,13 @@ Open file: /etc/security/limits.conf
 
 Paste following towards end:
 
-*         hard    nofile      500000
-*         soft    nofile      500000
-root      hard    nofile      500000
-root      soft    nofile      500000
+`*         hard    nofile      500000`
+
+`*         soft    nofile      500000`
+
+`root      hard    nofile      500000`
+
+`root      soft    nofile      500000`
 
 500000 is fair number. I am not sure what is max limit but 999999 (Six-9) worked for me once as far as I remember.
 
