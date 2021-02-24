@@ -9,8 +9,8 @@ Open file: /etc/security/limits.conf
 
 Paste following towards end:
 
-*         hard    nofile      500000
-*         soft    nofile      500000
+**         hard    nofile      500000
+**         soft    nofile      500000
 root      hard    nofile      500000
 root      soft    nofile      500000
 
