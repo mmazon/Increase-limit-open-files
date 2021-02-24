@@ -30,6 +30,7 @@ Open /etc/sysctl.conf
 Add following:
 
 fs.file-max = 2097152
+
 fs.inotify.max_user_instances = 1024
 
 Run:
